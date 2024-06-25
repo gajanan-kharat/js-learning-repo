@@ -57,19 +57,19 @@ elementP.appendChild(textNodeAddress);
 const divElement = document.querySelector("#address-content");
 divElement.appendChild(elementP);
 
-// function techFunction(){
-//     console.log(`Hey you clicked me - H3 `);
-// }
+function techFunction(){
+    console.log(`Hey you clicked me - H3 `);
+}
 
-// const butElement = document.querySelector("#submit-button");
-// butElement.addEventListener('click', ()=>{
-//     console.log("Hey you clicked");
-//     alert("Hey you clicked");
-// });
+const butElement = document.querySelector("#submit-button");
+butElement.addEventListener('click', ()=>{
+    console.log("Hey you clicked");
+    alert("Hey you clicked");
+});
 
-// addressElement.addEventListener('mouseover', ()=>{
-//     alert("Hey mouseover event performed");
-// });
+addressElement.addEventListener('mouseover', ()=>{
+    alert("Hey mouseover event performed");
+});
 
 const elementNumberBtn = document.querySelector("#number-one-button");
 elementNumberBtn.addEventListener("click", ()=>{
